@@ -1,11 +1,4 @@
-# Exercício 06 — ICE Java (Modificado)
-
-## O que foi alterado em relação ao original
-
-### `Functions.ice`
-- Removidas: `inverter`
-- Adicionadas em `Functions`: `contarVogais`, `converterTemperatura`, `calcularIMC`
-- **Nova interface** `Calculadora` com: `somar`, `fatorial`, `ehPrimo`
+# Exercício 06 — ICE Java
 
 ### Arquivos Java
 | Arquivo | Papel |
@@ -48,7 +41,7 @@ java -cp .:/usr/share/java/ice.jar Server
 java -cp .:/usr/share/java/ice.jar Client
 ```
 
-O cliente tenta primeiro o host remoto (`54.196.85.80`) e, se falhar, cai para `localhost`.
+O cliente tenta primeiro o host remoto (`3.82.236.30`) e, se falhar, cai para `localhost`.
 
 ---
 
